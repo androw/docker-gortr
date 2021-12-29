@@ -5,4 +5,4 @@ RUN apk add --update --no-cache -X http://dl-cdn.alpinelinux.org/alpine/edge/tes
 
 EXPOSE 8282
 
-CMD ["/usr/bin/gortr","-tls.bind","127.0.0.1:8282","-tls.bind","[::0]:8282","-verify.key","/usr/share/gortr/cf.pub"]
+CMD ["/usr/bin/gortr","-bind",":8282",""-verify.key","/usr/share/gortr/cf.pub"]
