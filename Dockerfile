@@ -1,7 +1,7 @@
 FROM alpine:edge
 MAINTAINER Nicolas Lorin <androw95220@gmail.com>
 
-RUN apk add --update --no-cache -X http://dl-cdn.alpinelinux.org/alpine/edge/testing gortr=0.14.7-r13 ca-certificates
+RUN apk add --update --no-cache -X http://dl-cdn.alpinelinux.org/alpine/edge/testing gortr=0.14.7-r14 ca-certificates
 
 EXPOSE 8282
 
